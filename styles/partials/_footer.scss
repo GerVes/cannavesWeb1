@@ -1,0 +1,62 @@
+
+#f-logo {
+    grid-area: flogo;
+}
+
+#flist1 {
+    grid-area: flist1;
+}
+
+#flist2 {
+    grid-area: flist2;
+}
+
+#flist3 {
+    grid-area: flist3;
+}
+
+footer {
+    display: grid;
+    font-size: 20px;
+    background-color: white;
+    border: solid 2px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "flogo flist1 flist2 flist3";
+}
+
+footer ul li:hover {
+    box-shadow: 0 0 24px 0 rgba(0, 48, 146, 0.4);
+    font-size: 21px;
+}
+
+
+.footerLists {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+footer ul li {
+
+    width: 200px;
+    background-color: #94C973;
+    margin-bottom: 08px;
+    border-radius: 05px;
+    border: solid 04px;
+    list-style: none;
+
+
+
+}
+
+
+.footerLists>li>a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
