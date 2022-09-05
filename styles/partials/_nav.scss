@@ -10,17 +10,18 @@
 }
 
 .li-nav>li>a {
+    font-size: 14px ;
     color: #1b8b2a;
     font-weight: 700;
     padding: 4px;
     text-decoration: none;
-    transition: all 1s;   
+    transition: all 1s, ease;   
 
 } 
 
 .li-nav>li>a:hover {
     color: #1c251e;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* .li-nav>li>a:focus {

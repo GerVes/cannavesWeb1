@@ -1,4 +1,4 @@
-@import "./partials/header",  "./partials/footer", "./partials/container1", "./partials/nav" ;
+@import  "./partials/borders", "./partials/colors","./partials/header",  "./partials/footer", "./partials/container1", "./partials/nav" ;
 
 body {  
     background-color: #ffffff;
@@ -46,8 +46,8 @@ body {
 .q-sqr,
 .p-sqr,
 .h-sqr {
-    border: solid 3px;
-    border-radius: 10px;
+    border: $sqrBorder;
+    border-radius: $sqrBorderRadius ;
     width: 33%;
     padding: 8px;
     margin: 40px;
