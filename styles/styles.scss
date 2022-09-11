@@ -1,4 +1,4 @@
-@import  "./partials/borders","./partials/maps", "./partials/extends" ,"./partials/header",  "./partials/footer", "./partials/container1", "./partials/nav" ;
+@import  "./partials/borders","./partials/maps", "./partials/extends" ,"./partials/header",  "./partials/footer", "./partials/container1", "./partials/nav", "./partials/mediaqueries" ;
 
 body {  
     background-color: #ffffff;
@@ -323,18 +323,18 @@ form {
         background-size: cover;
     }
 
-    .body.index {      
+    .body-index {      
     
         display: grid;    
         width: 100%;      
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas:
-            "1"
-            "2"
-            "3"
-            "4"
-            "5";
+            "a1"
+            "a2"
+            "a3"
+            "a4"
+            "a5";
 
     }
     
