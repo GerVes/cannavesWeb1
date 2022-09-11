@@ -423,4 +423,51 @@ form {
         }
 
 }
+.body-aboutus {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a1" "b1" "b2";
+  }
+  
+  .body-contactus {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a1" "c1" "c2";
+  }
+  
+  .body-faqs {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a1" "d1" "d2" "d3";
+  }
+  
+  .body.index {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5";
+  }
+  
+  .body.index {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5";
+  }
+  
+  .body.index {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5";
+  }
 
