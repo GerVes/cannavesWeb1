@@ -207,27 +207,27 @@ nav {
     display: none;
   }
   #a1 {
-    grid-area: 1;
+    grid-area: a1;
     padding: 0px;
     margin: 0px;
   }
   #a2 {
-    grid-area: 2;
+    grid-area: a2;
     padding: 0px;
     margin: 0px;
   }
   #a3 {
     padding: 0px;
     margin: 0px;
-    grid-area: 3;
+    grid-area: a3;
   }
   #a4 {
-    grid-area: 4;
+    grid-area: a4;
     padding: 0px;
     margin: 0px;
   }
   #a5 {
-    grid-area: 5;
+    grid-area: a5;
     padding: 0px;
     margin: 0px;
   }
@@ -304,12 +304,36 @@ nav {
     align-content: center;
   }
 }
+#b1 {
+  grid-area: b1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#b2 {
+  grid-area: b2;
+  padding: 0px;
+  margin: 0px;
+}
+
 .body-aboutus {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "a1" "b1" "b2";
+}
+
+#c1 {
+  grid-area: c1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#c2 {
+  grid-area: c2;
+  padding: 0px;
+  margin: 0px;
 }
 
 .body-contactus {
@@ -320,12 +344,42 @@ nav {
   grid-template-areas: "a1" "c1" "c2";
 }
 
+#d1 {
+  grid-area: d1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#d2 {
+  grid-area: d2;
+  padding: 0px;
+  margin: 0px;
+}
+
+#d3 {
+  grid-area: d3;
+  padding: 0px;
+  margin: 0px;
+}
+
 .body-faqs {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas: "a1" "d1" "d2" "d3";
+}
+
+#e1 {
+  grid-area: e1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#e2 {
+  grid-area: e2;
+  padding: 0px;
+  margin: 0px;
 }
 
 .body-gallery {
@@ -336,12 +390,36 @@ nav {
   grid-template-areas: "a1" "e1" "e2";
 }
 
+#f1 {
+  grid-area: f1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#f2 {
+  grid-area: f2;
+  padding: 0px;
+  margin: 0px;
+}
+
 .body-products {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "a1" "f1" "f2" "f3";
+  grid-template-areas: "a1" "f1" "f2";
+}
+
+#g1 {
+  grid-area: g1;
+  padding: 0px;
+  margin: 0px;
+}
+
+#g2 {
+  grid-area: g2;
+  padding: 0px;
+  margin: 0px;
 }
 
 .body-services {
@@ -349,7 +427,7 @@ nav {
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-template-areas: "a1" "a2" "a3" "a4" "a5";
+  grid-template-areas: "a1" "g1" "g2";
 }
 
 body {
