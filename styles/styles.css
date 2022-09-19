@@ -168,7 +168,7 @@ footer ul li {
   font-weight: 700;
   padding: 4px;
   text-decoration: none;
-  transition: all 1s, ease;
+  transition: all 0.25s;
 }
 
 .li-nav > li > a:hover {
@@ -678,7 +678,8 @@ form {
     padding: 0px;
     justify-content: center;
   }
-  #li-con, #li-os {
+  #li-con,
+#li-os {
     display: none;
   }
   #a1 {
@@ -723,7 +724,7 @@ form {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "img-1 " "img-2" "img-3" "img-4" "img-5";
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4" "img-5";
   }
   div {
     width: 100%;
