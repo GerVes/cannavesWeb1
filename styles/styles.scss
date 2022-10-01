@@ -266,6 +266,9 @@ form {
         width: 100vh;
 
     }
+    .bg-div .bg {
+        display: none;
+    }
 
     .li-nav {
 
@@ -293,14 +296,14 @@ form {
     }
 
     #a1 {
-        grid-area: 1;
+        grid-area: a1;
         padding: 0px;
         margin: 0px;
     }
 
     #a2 {
 
-        grid-area: 2;
+        grid-area: a2;
         padding: 0px;
         margin: 0px;
     }
@@ -308,17 +311,17 @@ form {
     #a3 {
         padding: 0px;
         margin: 0px;
-        grid-area: 3;
+        grid-area: a3;
     }
 
     #a4 {
-        grid-area: 4;
+        grid-area: a4;
         padding: 0px;
         margin: 0px;
     }
 
     #a5 {
-        grid-area: 5;
+        grid-area: a5;
         padding: 0px;
         margin: 0px;
     }
